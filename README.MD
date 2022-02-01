@@ -24,7 +24,7 @@ Projeto de prática de teste de software utilizando o framework "Cucumber". Tem 
 ## Instalação (Utilizando Windows 10)
 
 #### Java-JDK
-1. Após download do arquivo JDK, extraia em algum local de sua preferência;
+1. Após download do arquivo JDK, extraia o arquivo em algum local de sua preferência;
 
 2. Acesse: Painel de Controle > Sistema e Segurança > Sistema;
 
@@ -49,7 +49,7 @@ Projeto de prática de teste de software utilizando o framework "Cucumber". Tem 
 12. Para confirmar se o JDK foi configurado corretamente, rode o CMD (Prompt de comando) e digite "java -version".
 
 #### Apache Maven
-1. Após download do arquivo Apache Maven, extraia em algum local de sua preferência;
+1. Após download do arquivo Apache Maven, extraia o arquivo em algum local de sua preferência;
 
 2. Acesse: Painel de Controle > Sistema e Segurança > Sistema;
 
