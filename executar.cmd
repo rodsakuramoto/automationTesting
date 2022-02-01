@@ -1,0 +1,25 @@
+
+echo "LIMPANDO A PASTA TARGET E AS EVIDÊNCIAS DOS TESTES ANTERIORES"
+mvn clean
+
+echo "SUCESSO"
+
+echo "EXECUTANDO OS TESTES"
+
+mvn test 
+
+echo "IREI MOSTRAR PARA VOCÊ A PASTA 'HTMLS', CONTENDO OS RELATÓRIOS DOS TESTES, FOI GERADA COM SUCESSO."
+echo "."
+echo "."
+echo "."
+echo "."
+
+cd target/relatorios
+if [ -d "htmls" ]; then
+	echo "FOI GERADA COM SUCESSO! "
+else 
+	echo "ATENÇÃO! OS HTMLS DE EVIDÊNCIAS DOS TESTES NÃO FORAM CRIADOS. NÃO EXISTE A PASTA 'HTMLS'. VERIFICAR O MOTIVO."
+fi
+cd ../../
+
+
